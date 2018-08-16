@@ -11,7 +11,8 @@ public class Test {
 		HttpUtil httpUtil=new HttpUtil("https://www.baidu.com");
 		httpUtil.doHtml();
 		LOGGER.info(httpUtil.getResDoc().html());
-		LOGGER.info("test");
-		LOGGER.info("test");
+		LOGGER.info("test1");
+		LOGGER.info("test2");
+		LOGGER.info("test33");
 	}
 }
